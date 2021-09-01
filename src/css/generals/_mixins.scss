@@ -1,0 +1,27 @@
+@mixin flex-between($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-start($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-align-start($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@mixin flex-center($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
